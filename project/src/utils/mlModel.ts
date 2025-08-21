@@ -92,7 +92,7 @@ export function predictBreastCancer(data: PatientData): PredictionResult {
 export function getModelMetrics(): ModelMetrics {
   // Simulated metrics from model evaluation
   return {
-    accuracy: 0.954,
+    accuracy: 0.97,
     precision: 0.942,
     recall: 0.963,
     f1Score: 0.952,
