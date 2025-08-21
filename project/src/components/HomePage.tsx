@@ -113,7 +113,7 @@ const HomePage: React.FC = () => {
       </div>
 
       {/* Feature Importance */}
-      <div className="bg-white p-6 rounded-lg shadow-md border border-gray-200 mb-12">
+      {/* <div className="bg-white p-6 rounded-lg shadow-md border border-gray-200 mb-12">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Feature Importance</h3>
         <div className="h-64">
           <ResponsiveContainer width="100%" height="100%">
@@ -126,7 +126,7 @@ const HomePage: React.FC = () => {
             </BarChart>
           </ResponsiveContainer>
         </div>
-      </div>
+      </div> */}
 
       {/* Information Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
